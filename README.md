@@ -1,22 +1,24 @@
 # Project 10 - Honeypot
 
-Time spent: **X** hours spent in total
+Time spent: 6 hours spent in total
 
 > Objective: Setup a honeypot and provide a working demonstration of its features.
 
 ### Required: Overview & Setup
 
-- [ ] A basic writeup (250-500 words) on the `README.md` desribing the overall approach, resources/tools used, findings
-- [ ] A specific, reproducible honeypot setup, ideally automated. There are several possibilities for this:
+- [X] A basic writeup (250-500 words) on the `README.md` desribing the overall approach, resources/tools used, findings
+- [X] A specific, reproducible honeypot setup, ideally automated. There are several possibilities for this:
 	- A Vagrantfile or Dockerfile which provisions the honeypot as a VM or container
 	- A bash script that installs and configures the honeypot for a specific OS
 	- Alternatively, **detailed** notes added to the `README.md` regarding the setup, requirements, features, etc.
 
 ### Required: Demonstration
 
-- [ ] A basic writeup of the attack (what offensive tools were used, what specifically was detected by the honeypot)
-- [ ] An example of the data captured by the honeypot (example: IDS logs including IP, request paths, alerts triggered)
-- [ ] A screen-cap of the attack being conducted
+- [X] A basic writeup of the attack (what offensive tools were used, what specifically was detected by the honeypot)
+- [X] An example of the data captured by the honeypot (example: IDS logs including IP, request paths, alerts triggered)
+- [X] A screen-cap of the attack being conducted
+<img src='honeypot.gif' title='honeypot' width='' alt='honeypot' />
+<img src='honeypot.png' title='honeypotPNG' width='' alt='honeypotPNG' />
     
 ### Optional: Features
 - Honeypot
