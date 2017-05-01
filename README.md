@@ -205,8 +205,8 @@ Leave nmap running and go back to the Attacks page in the console. You should se
 - [X] An example of the data captured by the honeypot (example: IDS logs including IP, request paths, alerts triggered)
 - [X] A screen-cap of the attack being conducted
 
-Unfortunately, I was unable to configure this assignment correctly, due to issues with the Virtual Machine setup. After trying several different methods, I have decided to demonstrate my knowledge of what this specific honeypot is supposed to do as an alternative.  
-<img src='error.png' title='error' width='' alt='error' />
+Unfortunately, I was unable to configure this assignment correctly, due to issues with the Virtual Machine setup. After trying several different methods, I have decided to demonstrate my knowledge of what this specific honeypot is supposed to do as an alternative. This specific honeypot is created by cloning Modern Honeypot Network (MHN) from GitHub. This provides for a low-interaction honeypot that uses Vagrant and VirtualBox. The honeypot uses a server VM and a host VM. First, we must set up a MHN server by installing the GitHub scripts in the server VM. Next, we must access the MHN server via the host VM with the base URL, http://10.254.254.100/. This URL is where attacks are logged and where details of attacks can be reviewed.
+<img src='error.PNG' title='error' width='' alt='error' />
 <img src='honeypot.gif' title='honeypot' width='' alt='honeypot' />
     
 ### Optional: Features
